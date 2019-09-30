@@ -1,0 +1,12 @@
+Insetion Sort:
+Worst Case-O(n^2)-c1*n^2 + c2*n+c3
+Best Case-O(n) - c1*n + c2
+
+explanition as discussed in lecture 27, the time constant for insertion sort is quadratic during it's worst case yet linear during its best case.
+
+Bubble Sort:
+Worst Case-O(n^2)- n*(n-1)/2
+Best Case-O(n) - 1
+
+explanition, the best case case can only occur in bubble sort when the input is already sorted which means only 1 pass will occur. However, in the worst case a factorial like situation will occur where n continues in summation.
+for this case we can tell that since it is only avoidable by being presorted that this isn't a quick function.
